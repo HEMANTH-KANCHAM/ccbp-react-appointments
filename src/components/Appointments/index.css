@@ -1,0 +1,70 @@
+.app-container {
+  background-image: linear-gradient(lightpink, rgb(165, 110, 228));
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  width: 90%;
+  max-width: 1100px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  font-family: 'Roboto';
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: grey;
+  margin-bottom: 10px;
+}
+.title-input {
+  padding: 8px 16px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+}
+.date-input {
+  padding: 8px 16px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+}
+.submit-button {
+  padding: 5px 10px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  align-self: flex-start;
+  border: none;
+  cursor: pointer;
+}
+.footer {
+}
+.footer-heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+.starred-button {
+  padding: 5px 10px;
+  background-color: transparent;
+  color: blueviolet;
+  border-radius: 14px;
+  align-self: flex-start;
+  border: 1px solid blueviolet;
+  cursor: pointer;
+  align-self: center;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}

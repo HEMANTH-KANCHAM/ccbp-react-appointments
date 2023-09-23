@@ -1,0 +1,26 @@
+.list-item {
+  border: 1px solid grey;
+  list-style-type: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.title-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 14px;
+}
+.star-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.date {
+  color: grey;
+  margin: 10px 0px;
+}
